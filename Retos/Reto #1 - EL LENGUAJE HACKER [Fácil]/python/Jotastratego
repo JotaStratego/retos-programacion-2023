@@ -1,0 +1,95 @@
+palabra = input("Introduce una palabra: ")
+
+def traductor(x):
+    lista = list(x)
+    
+    nuevalista = []
+
+    for i in lista:
+        
+        if i == "a":
+            i = "4"
+            nuevalista.append(i)
+        elif i == "b":
+            i = "|3"
+            nuevalista.append(i)
+        elif i == "c":
+            i = "["
+            nuevalista.append(i)
+        elif i == "d":
+            i = ")"
+            nuevalista.append(i)
+        elif i == "e":
+            i = "3"
+            nuevalista.append(i)
+        elif i == "f":
+            i = "|="
+            nuevalista.append(i)
+        elif i == "g":
+            i = "&"
+            nuevalista.append(i)
+        elif i == "h":
+            i = "#"
+            nuevalista.append(i)
+        elif i == "i":
+            i = "1"
+            nuevalista.append(i)
+        elif i == "j":
+            i = ",_|"
+            nuevalista.append(i)
+        elif i == "k":
+            i = ">|"
+            nuevalista.append(i)
+        elif i == "l":
+            i = "1"
+            nuevalista.append(i)
+        elif i == "m":
+            i = "/\/\ "
+            nuevalista.append(i)
+        elif i == "n":
+            i = "^/"
+            nuevalista.append(i)
+        elif i == "o":
+            i = "0"
+            nuevalista.append(i)
+        elif i == "p":
+            i = "|*"
+            nuevalista.append(i)
+        elif i == "q":
+            i = "(_,)"
+            nuevalista.append(i)
+        elif i == "r":
+            i = "|2"
+            nuevalista.append(i)
+        elif i == "s":
+            i = "5"
+            nuevalista.append(i)
+        elif i == "t":
+            i = "7"
+            nuevalista.append(i)
+        elif i == "u":
+            i = "(_)"
+            nuevalista.append(i)
+        elif i == "v":
+            i = "\/"
+            nuevalista.append(i)
+        elif i == "w":
+            i = "\/\/"
+            nuevalista.append(i)
+        elif i == "x":
+            i = "><"
+            nuevalista.append(i)
+        elif i == "y":
+            i = "j"
+            nuevalista.append(i)
+        elif i == "z":
+            i = "2"
+            nuevalista.append(i)
+        else:
+            i = i
+            nuevalista.append(i)
+        
+    nuevapalabra = "".join(nuevalista)
+    print(nuevapalabra)      
+
+traductor(palabra)
